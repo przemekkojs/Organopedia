@@ -36,26 +36,29 @@ W tej sekcji opisane zostały wymagania funkcjonalne (jak program ma działać) 
 
 ### 4.1. Wymagania funkcjonalne
 #### 4.1.1. Przeglądanie kategorii i części
-- Użytkownik powinien mieć możliwość przejścia do każdej z kategorii części oraz części w ramach danej kategorii
+Użytkownik powinien mieć możliwość przejścia do każdej z kategorii części oraz części w ramach danej kategorii.
 
-#### 4.1.2. Filtrowanie
-- Użytkownik powinien mieć możliwość filtrowania części ze względu na nazwę
+#### 4.1.2. Filtrowanie i wyszukiwanie
+Użytkownik powinien mieć możliwość filtrowania części ze względu na nazwę. Użytkownik powinien móc wyszukać dowolną część z każdego miejsca aplikacji.
 
 #### 4.1.3. Dostęp do szczegółów danej części
-- Użytkownik powinien mieć możliwość przejścia do szczegółów danej części
+Użytkownik powinien mieć możliwość przejścia do szczegółów danej części.
+
+#### 4.1.4. Historia i kontekst
+Każda z części powinna mieć swój opis historyczny w kontekście budownictwa organowego.
 
 ### 4.2. Wymagania niefunkcjonalne
 #### 4.2.1. Działanie w trybie offline
-- Aplikacja powinna działać bez dostępu do internetu
+Aplikacja powinna działać bez dostępu do internetu.
 
-#### 4.2.2. Użyteczność
-- Aplikacja powinna mieć intuicyjny interfejs użytkownika, z dostępnością dla osób niepełnosprawnych
+#### 4.2.2. Użyteczność i dostępność
+Aplikacja powinna mieć intuicyjny interfejs użytkownika, z dostępnością dla osób niepełnosprawnych. Aplikacja powinna być dostępna w języku polskim.
 
 #### 4.2.3. Wydajność
-- Aplikacja powinna działać wydajnie, zarówno ze względu na nią samą, jak i multimedia
+Aplikacja powinna działać wydajnie, zarówno ze względu na nią samą, jak i multimedia.
 
-#### Kompatybilność
-- Aplikacja powinna być kompatybilna z najnowszymi wersjami systemu Android (od 9.0)
+#### 4.2.4. Kompatybilność
+Aplikacja powinna być kompatybilna z najnowszymi wersjami systemu Android (od 9.0).
 
 ## 5. Kroje pisma, efekty tekstowe itp.
 **5.1. Pliki graficzne**: format .jpeg\
