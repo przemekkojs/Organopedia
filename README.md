@@ -34,31 +34,62 @@ posłużyć w walce ze stereotypem oraz otworzyć mi drogę do wielu ciekawych i
 ## 4. Wymagania
 W tej sekcji opisane zostały wymagania funkcjonalne (jak program ma działać) oraz niefunkcjonalne (ograniczenia) projektu.
 
-### 4.1. Wymagania funkcjonalne
-#### 4.1.1. Przeglądanie kategorii i części
-Użytkownik powinien mieć możliwość przejścia do każdej z kategorii części oraz części w ramach danej kategorii.
+### Wymagania funkcjonalne
 
-#### 4.1.2. Filtrowanie i wyszukiwanie
-Użytkownik powinien mieć możliwość filtrowania części ze względu na nazwę. Użytkownik powinien móc wyszukać dowolną część z każdego miejsca aplikacji.
+#### Tryb offline
+- Aplikacja musi działać bez dostępu do Internetu, umożliwiając pełne korzystanie z jej funkcjonalności.
 
-#### 4.1.3. Dostęp do szczegółów danej części
-Użytkownik powinien mieć możliwość przejścia do szczegółów danej części.
+#### Odtwarzanie filmów
+- Użytkownik może odtwarzać filmy zapisane w aplikacji.
+- Odtwarzacz powinien obsługiwać podstawowe funkcje: play, pause, przewijanie, zmiana głośności.
 
-#### 4.1.4. Historia i kontekst
-Każda z części powinna mieć swój opis historyczny w kontekście budownictwa organowego.
+#### Galeria zdjęć
+- Aplikacja powinna umożliwiać przeglądanie kolekcji zdjęć w formie siatki lub listy.
 
-### 4.2. Wymagania niefunkcjonalne
-#### 4.2.1. Działanie w trybie offline
-Aplikacja powinna działać bez dostępu do internetu.
+#### Podgląd zdjęcia
+- Po kliknięciu na zdjęcie, otwiera się ono w trybie podglądu na pełnym ekranie.
+- Użytkownik może powiększać zdjęcie gestem „szczypania” (pinch-to-zoom).
 
-#### 4.2.2. Użyteczność i dostępność
-Aplikacja powinna mieć intuicyjny interfejs użytkownika, z dostępnością dla osób niepełnosprawnych. Aplikacja powinna być dostępna w języku polskim.
+#### Opisy multimediów
+- Każde zdjęcie i film powinny mieć przypisany opis, który będzie widoczny w trybie podglądu.
 
-#### 4.2.3. Wydajność
-Aplikacja powinna działać wydajnie, zarówno ze względu na nią samą, jak i multimedia.
+#### Intuicyjne menu nawigacyjne
+- Aplikacja powinna zawierać menu umożliwiające szybki dostęp do filmów, galerii i ustawień.
 
-#### 4.2.4. Kompatybilność
-Aplikacja powinna być kompatybilna z najnowszymi wersjami systemu Android (od 9.0).
+#### Nowoczesny interfejs użytkownika
+- UI powinno być estetyczne, zgodne z najnowszymi trendami UX/UI.
+
+### Wymagania niefunkcjonalne
+
+#### Wydajność
+- Aplikacja powinna działać płynnie na urządzeniach mobilnych o średnich parametrach sprzętowych.
+
+#### Responsywność interfejsu
+- Elementy UI powinny dynamicznie dostosowywać się do różnych rozdzielczości ekranów.
+
+#### Łatwość użytkowania
+- Aplikacja powinna być intuicyjna i nie wymagać długiego procesu nauki.
+
+#### Bezpieczeństwo danych
+- Treści multimedialne powinny być przechowywane lokalnie w sposób zabezpieczony przed nieautoryzowanym dostępem.
+
+#### Kompatybilność
+- Aplikacja powinna działać na systemach Android.
+
+#### Minimalistyczny design
+- UI powinno unikać zbędnych elementów, stawiając na prostotę i przejrzystość.
+
+#### Optymalizacja zużycia energii
+- Aplikacja powinna minimalizować obciążenie procesora i baterii.
+
+#### Szybki czas uruchamiania
+- Czas startu aplikacji nie powinien przekraczać 3 sekund.
+
+#### Obsługa gestów
+- Aplikacja powinna wspierać gesty dotykowe, takie jak przesuwanie (swipe), powiększanie (pinch-to-zoom) i podwójne stuknięcie (double-tap).
+
+#### Dostępność
+- UI powinno być zgodne z wytycznymi dotyczącymi dostępności (np. odpowiedni kontrast, obsługa czytników ekranowych).
 
 ## 5. Kroje pisma, efekty tekstowe itp.
 **5.1. Pliki graficzne**: format .jpeg\
@@ -66,3 +97,6 @@ Aplikacja powinna być kompatybilna z najnowszymi wersjami systemu Android (od 9
 **5.3. Pliki audio**: format .aac\
 **5.4. Krój pisma**: Roboto, bezszeryfowa\
 **5.5. Efekty tekstowe**: Cień, pogrubienie, kursywa, podkreślenie
+
+## 6. Źródła graficzne
+[Model telefonu](https://www.freepik.com/free-vector/new-modern-realistic-front-view-black-iphone-mockup-isolated-white-mobile-template-vector_33632328.htm#fromView=keyword&page=1&position=1&uuid=6e918124-cbae-458d-b878-4339da11c9e0&query=Mockup+Phone)
