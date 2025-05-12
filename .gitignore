@@ -1,1 +1,7 @@
 *.epgz
+.vs/
+bin/
+obj/
+*.png
+*.mp4
+*.aac

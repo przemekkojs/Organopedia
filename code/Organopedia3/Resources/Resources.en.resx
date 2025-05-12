@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutApp" xml:space="preserve">
+    <value>About app</value>
+  </data>
+  <data name="Accessibility" xml:space="preserve">
+    <value>Accessibility</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ActionsDescription" xml:space="preserve">
+    <value>The action (or key action) of a pipe organ is the system—mechanical, pneumatic, or electric—that connects the keyboard to the windchest valves, transmitting the organist's input to the pipes. In other words, the action determines which pipes will sound when a key is pressed. There are three primary types of organ actions: Mechanical (tracker) action – uses levers, rods, and trackers to create a direct, physical connection between key and valve. It is valued for its tactile precision and responsiveness. Pneumatic action – uses pressurized air to transmit the key signal, common in late 19th- and early 20th-century instruments. Electric action – uses electrical impulses to activate valves, allowing greater design flexibility and remote placement of the console. Many modern organs use hybrid (combination) actions, blending systems to optimize performance and player comfort.</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus turpis semper erat laoreet, eu viverra est porttitor. Donec mattis vel felis ut rutrum. Morbi eu finibus massa. Donec porttitor metus ut felis rhoncus lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nec velit arcu. Vestibulum ac luctus velit. Duis blandit quis magna sit amet venenatis. Vestibulum et commodo quam. Praesent porttitor, elit sed vestibulum viverra, neque libero congue nibh, vitae faucibus lorem nisl quis justo. Maecenas quis tellus et nisi ullamcorper consectetur. Nullam facilisis nec purus eget venenatis. Mauris egestas risus molestie mattis ornare.</value>
+  </data>
+  <data name="Bellows" xml:space="preserve">
+    <value>Bellows</value>
+  </data>
+  <data name="BellowsDescription" xml:space="preserve">
+    <value>The bellows in a pipe organ are responsible for supplying and maintaining the appropriate wind pressure needed to make the pipes speak. Traditionally, bellows were large leather bags operated by hand or foot, but in modern organs, air is usually provided by electric blowers, with bellows serving as pressure regulators and air reservoirs. There are various types of bellows, including wedge bellows, box bellows, and reservoir (or floating) bellows, each with different designs and mechanisms. A well-functioning bellows system is essential for tonal and dynamic stability, ensuring a steady and uninterrupted flow of air regardless of how many pipes are sounding at once.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Change language</value>
+  </data>
+  <data name="ChangeMotiff" xml:space="preserve">
+    <value>Change motiff</value>
+  </data>
+  <data name="LabialMetal" xml:space="preserve">
+    <value>Labial metal</value>
+  </data>
+  <data name="LabialWoodenDescription" xml:space="preserve">
+    <value>Wooden flue pipes are a type of organ pipe made primarily from wood species such as pine, oak, maple, or mahogany. They operate on the principle of air flowing through a narrow slit and striking the pipe’s lip, causing the air column inside to vibrate—much like in a recorder. These pipes typically have a rectangular cross-section and are often built in larger dimensions than metal pipes, enabling them to produce deep, warm tones. Wooden flue pipes are commonly used for stops with a soft, mellow character, such as the Bourdon, Gedackt, or Holzflöte.</value>
+  </data>
+  <data name="LabialWooden" xml:space="preserve">
+    <value>Labial wooden</value>
+  </data>
+  <data name="Large" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="MainPage" xml:space="preserve">
+    <value>Main page</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Reed" xml:space="preserve">
+    <value>Reed</value>
+  </data>
+  <data name="ReedDescription" xml:space="preserve">
+    <value>Reed pipes are a type of organ pipe in which sound is produced by the vibration of a thin metal tongue (reed) set in a brass tube called the shallot. A stream of air causes the reed to vibrate, and this vibration is amplified and shaped by a resonator above it. Unlike flue pipes, where the entire air column produces the sound, in reed pipes the vibrating reed is the primary sound source. Resonators vary in shape, length, and material, greatly influencing the tone—from brassy and penetrating (e.g., Trumpet, Clarion) to softer and more lyrical (e.g., Oboe, Bassoon). Reed pipes require precise tuning and are often used to imitate orchestral wind instruments.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Stops" xml:space="preserve">
+    <value>Stops</value>
+  </data>
+  <data name="StopsDescription" xml:space="preserve">
+    <value>Organ pipes are the primary sound-producing elements in a pipe organ. Each pipe produces a single pitch and varies in length, material, and design, which affects its timbre and pitch. Pipes are divided into two main categories: flue pipes, which function similarly to flutes, and reed pipes, which use a vibrating reed to generate sound. An organ can contain anywhere from a few hundred to tens of thousands of pipes, enabling an exceptionally rich and varied tonal palette.</value>
+  </data>
+  <data name="TextSize" xml:space="preserve">
+    <value>Font size</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version: 1.0</value>
+  </data>
+  <data name="Windchests" xml:space="preserve">
+    <value>Windchests</value>
+  </data>
+  <data name="WindchestsDescription" xml:space="preserve">
+    <value>The windchest is a crucial component of a pipe organ, responsible for directing air to the appropriate pipes. It is located directly beneath the ranks of pipes and acts as a kind of "air distributor." The windchest contains a system of channels and valves that open or close depending on which keys and stops the organist activates. There are various types of windchests, including slider windchests (common in mechanical action organs), cone valve windchests (often used in pneumatic systems), and electromagnetic windchests. The precise functioning of the windchest is essential for the technical and musical reliability of the entire instrument.</value>
+  </data>
+  <data name="LabialMetalDescription" xml:space="preserve">
+    <value>Metal flue pipes are the most common type of organ pipes and are usually made from alloys of tin and lead, although zinc, copper, and aluminum are also used. They work by directing a stream of air through a narrow slit against a sharp lip, causing the column of air inside the pipe to vibrate—similar to a pan flute. These pipes typically have a round cross-section and come in various forms: open, stopped, conical, cylindrical, and more. They produce a bright, clear, and often more resonant tone than wooden pipes. Metal flue pipes are used for a wide variety of stops such as Principal, Octave, Flûte harmonique, and Salicional.</value>
+  </data>
+  <data name="WIP" xml:space="preserve">
+    <value>Work in progress</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="ChestWindchest" xml:space="preserve">
+    <value>Chest windchest</value>
+  </data>
+  <data name="ToneWindchest" xml:space="preserve">
+    <value>Wiatrownica tonowa</value>
+  </data>
+  <data name="RegisterWindchest" xml:space="preserve">
+    <value>Register windchest</value>
+  </data>
+  <data name="WedgeBellows" xml:space="preserve">
+    <value>Wedge bellows</value>
+  </data>
+  <data name="HorizontalBellows" xml:space="preserve">
+    <value>Horizontal bellows</value>
+  </data>
+  <data name="FloatBellows" xml:space="preserve">
+    <value>Float bellows</value>
+  </data>
+  <data name="TrackerAction" xml:space="preserve">
+    <value>Tracker action</value>
+  </data>
+  <data name="PneumaticAction" xml:space="preserve">
+    <value>Pneumatic action</value>
+  </data>
+  <data name="ElectricAction" xml:space="preserve">
+    <value>Electric action</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="ChestWindchestDescription" xml:space="preserve">
+    <value>A chest windchest is a type of windchest where valve shutters are placed across the entire surface, without division by tone or register. Air enters the windchest through openings, and each pipe has its own shutter that is opened when the corresponding key is pressed. This simple design is used in less complex organs, ensuring even air distribution to the pipes.</value>
+  </data>
+  <data name="ToneWindchestDescription" xml:space="preserve">
+    <value>A tone windchest is a type of windchest where air is directed to the pipes with division by tone and register. Each set of pipes has its own section of the windchest, with separate valve shutters for different stops. This allows for precise control over individual registers and better regulation of air pressure. Such windchests are used in more advanced organs, offering greater flexibility in tonal variation.</value>
+  </data>
+  <data name="RegisterWindchestDescription" xml:space="preserve">
+    <value>A register windchest is a type of windchest where air is directed to groups of pipes according to the selected register. Each register (voice) has its own section of the windchest with dedicated valves for each group of pipes. Changing the register involves opening or closing specific shutters depending on the selected voice. Register windchests are used in more complex organs, offering precise control over the tonal quality.</value>
+  </data>
+  <data name="WedgeBellowsDescription" xml:space="preserve">
+    <value>A wedge bellows consists of two wooden boards joined by leather in a wedge shape. The upper board rises as air fills the bellows and falls as it is released. It is the oldest type of bellows, originally operated by hand. It provides stable pressure but has limited capacity and needed frequent refilling.</value>
+  </data>
+  <data name="HorizontalBellowsDescription" xml:space="preserve">
+    <value>A horizontal bellows, also called a box bellows, is a rectangular enclosed box with a movable top plate. Air is pumped into the chamber, raising the plate, which then falls to regulate the airflow to the windchest. Pressure is maintained using weights or springs. This type is effective as an air reservoir in larger instruments.</value>
+  </data>
+  <data name="FloatBellowsDescription" xml:space="preserve">
+    <value>A reservoir (floating) bellows is a horizontal air chamber with a movable top plate that rises under air pressure and falls as air is used. Constant pressure is maintained by weights or springs on the plate. Common in modern organs with electric blowers, it offers high capacity and steady airflow.</value>
+  </data>
+  <data name="TrackerActionDescription" xml:space="preserve">
+    <value>Mechanical (tracker) action is a direct system connecting keys to windchest valves using levers, rods, and trackers. Pressing a key physically opens the valve beneath the corresponding pipe, allowing air to enter and produce sound. It offers precise control and simple maintenance, but requires more effort when many stops are drawn and is less practical over long distances between console and pipes.</value>
+  </data>
+  <data name="PneumaticActionDescription" xml:space="preserve">
+    <value>Pneumatic action uses compressed air to transmit signals from the keyboard to the windchest valves. Pressing a key activates a small bellows or valve that sends an air impulse to open the corresponding pipe valve. This system allows the console to be placed farther from the pipes and reduces playing effort, but it offers less precision, can have delays, and requires more maintenance.</value>
+  </data>
+  <data name="ElectricActionDescription" xml:space="preserve">
+    <value>Electric action transmits signals from the keyboard to windchest valves using electrical impulses. Pressing a key completes a circuit that activates the valve under the corresponding pipe. It allows flexible console placement, fast response, and integration of modern features, but depends on power supply and is technically more complex.</value>
+  </data>
+  <data name="ChangeLanguageButton" xml:space="preserve">
+    <value>Language change button</value>
+  </data>
+  <data name="ChangeLanguageButtonHelp" xml:space="preserve">
+    <value>Use this button, to change application language</value>
+  </data>
+  <data name="ChangeMotiffButton" xml:space="preserve">
+    <value>Change motiff button</value>
+  </data>
+  <data name="ChangeMotiffButtonHelp" xml:space="preserve">
+    <value>Click to change application motiff</value>
+  </data>
+  <data name="ChangeFontSize" xml:space="preserve">
+    <value>Change font size</value>
+  </data>
+  <data name="ChangeFontSizeHelp" xml:space="preserve">
+    <value>Use this form, to change font size</value>
+  </data>
+  <data name="PrivacyPolicyButton" xml:space="preserve">
+    <value>Privacy policy button</value>
+  </data>
+  <data name="PrivacyPolicyButtonHelp" xml:space="preserve">
+    <value>Click to go to privacy policy page</value>
+  </data>
+</root>

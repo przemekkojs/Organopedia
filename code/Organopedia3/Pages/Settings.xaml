@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Organopedia3.Pages.Settings"
+             xmlns:resx="clr-namespace:Organopedia3.Resources"
+             xmlns:services="clr-namespace:Organopedia3.Services">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                Text="{Binding [ChangeLanguage], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                Clicked="OnLanguageChangeClicked"
+                AutomationProperties.Name="{Binding [ChangeLanguageButton], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                AutomationProperties.HelpText="{Binding [ChangeLanguageButtonHelp], Source={x:Static services:LocalizationResourceManager.Instance}}"/>
+
+            <Button
+                Text="{Binding [PrivacyPolicy], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                Clicked="OnPrivacyPolicyClicked"
+                AutomationProperties.Name="{Binding [PrivacyPolicyButton], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                AutomationProperties.HelpText="{Binding [PrivacyPolicyButtonHelp], Source={x:Static services:LocalizationResourceManager.Instance}}/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

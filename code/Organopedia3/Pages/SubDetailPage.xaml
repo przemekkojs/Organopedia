@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Organopedia3.Pages.SubDetailPage"
+             Title="SubDetailPage"
+             xmlns:services="clr-namespace:Organopedia3.Services">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout
+            Grid.Row="0"
+            Padding="10"
+            Spacing="10">
+            
+            <Label
+                x:Name="titleLabel"
+                FontSize="24"
+                FontAttributes="Bold"
+                TextColor="{StaticResource AccentColor}"/>
+
+            <ScrollView Orientation="Horizontal">
+                <FlexLayout
+                    x:Name="mediaGallery"
+                    Direction="Row"
+                    Wrap="NoWrap"
+                    AlignItems="Center"
+                    Margin="10"
+                    HorizontalOptions="Center"/>
+            </ScrollView>
+        </VerticalStackLayout>
+
+        <ScrollView Grid.Row="1">
+            <Label
+                x:Name="descriptionLabel"/>
+        </ScrollView>
+    </Grid>    
+</ContentPage>

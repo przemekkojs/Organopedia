@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Organopedia3.Pages.PrivacyPolicy"
+    Title="PrivacyPolicy">
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <Label Text="Polityka Prywatności" FontSize="24" FontAttributes="Bold" />
+
+            <Label Text="1. Brak gromadzenia danych" />
+            <Label Text="Aplikacja Organopedia nie zbiera, nie przetwarza ani nie przechowuje żadnych danych osobowych użytkowników." />
+
+            <Label Text="2. Brak połączenia z internetem" />
+            <Label Text="Aplikacja działa całkowicie offline i nie wymaga dostępu do internetu w żadnym momencie jej użytkowania." />
+
+            <Label Text="3. Brak kont użytkownika" />
+            <Label Text="Aplikacja nie posiada funkcji logowania, rejestracji ani tworzenia kont użytkownika." />
+
+            <Label Text="4. Zmiany polityki prywatności" />
+            <Label Text="Jeśli w przyszłości aplikacja zacznie przetwarzać dane lub łączyć się z internetem, polityka prywatności zostanie zaktualizowana i udostępniona użytkownikom." />
+
+            <Label Text="5. Kontakt" />
+            <Label Text="W razie pytań prosimy o kontakt: kontakt@organopedia.pl" />
+        </VerticalStackLayout>
+    </ScrollView>    
+</ContentPage>

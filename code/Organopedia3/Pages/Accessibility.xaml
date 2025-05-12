@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Organopedia3.Pages.Accessibility"
+             xmlns:resx="clr-namespace:Organopedia3.Resources"
+             xmlns:services="clr-namespace:Organopedia3.Services">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                Text="{Binding [ChangeMotiff], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                Clicked="OnContrastToggleClicked"
+                AutomationProperties.Name="{Binding [ChangeMotiffButton], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                AutomationProperties.HelpText="{Binding [ChangeMotiffButtonHelp], Source={x:Static services:LocalizationResourceManager.Instance}}"/>
+
+            <Picker
+                x:Name="FontSizePicker"
+                Title="{Binding [TextSize], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                SelectedIndexChanged="FontSizePicker_SelectedIndexChanged"
+                AutomationProperties.Name="{Binding [ChangeFontSize], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                AutomationProperties.HelpText="{Binding [ChangeFontSizeHelp], Source={x:Static services:LocalizationResourceManager.Instance}}">
+
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:Static Member="resx:Resources.Small"/>
+                        <x:Static Member="resx:Resources.Medium"/>
+                        <x:Static Member="resx:Resources.Large" />
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

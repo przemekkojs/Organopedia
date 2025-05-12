@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Organopedia3.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Organopedia3"
+    xmlns:pages="clr-namespace:Organopedia3.Pages"
+    xmlns:resx="clr-namespace:Organopedia3.Resources"
+    xmlns:services="clr-namespace:Organopedia3.Services"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Shell.FlyoutBehavior="Flyout"
+    FlyoutBackgroundColor="{StaticResource BackgroundColor}"
+    BackgroundColor="{StaticResource BackgroundColor}">
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid
+                ColumnDefinitions="50, *"
+                Padding="10">
+
+                <Image
+                    Source="{Binding Icon}"
+                    Grid.Column="0"
+                    HeightRequest="24"
+                    WidthRequest="24"/>
+
+                <Label
+                    Text="{Binding Title}"
+                    TextColor="{StaticResource TextColor}"
+                    VerticalOptions="CenterAndExpand"
+                    Grid.Column="1"/>
+            </Grid>     
+        </DataTemplate>
+    </Shell.ItemTemplate>
+    
+    <Shell.TitleView>        
+        <Grid ColumnDefinitions="Auto, *, Auto"
+          Padding="10,0"
+          VerticalOptions="FillAndExpand"
+          HorizontalOptions="FillAndExpand">
+
+            <Image Source="logo_transparent.png"
+               HeightRequest="40"
+               WidthRequest="40"
+               VerticalOptions="Center" />
+
+            <Label Text="Organopedia"
+               Grid.Column="1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="32"
+               FontAttributes="Bold"
+               TextColor="{StaticResource AccentColor}"/>
+        </Grid>
+    </Shell.TitleView>
+
+    <FlyoutItem
+        Title="{Binding [MainPage], Source={x:Static services:LocalizationResourceManager.Instance}}"
+        Icon="home.png">
+        
+        <ShellContent
+            Title="{Binding [MainPage], Source={x:Static services:LocalizationResourceManager.Instance}}"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage"/>
+    </FlyoutItem>
+
+    <FlyoutItem
+        Title="{Binding [Settings], Source={x:Static services:LocalizationResourceManager.Instance}}"
+        Icon="wheel.png">
+        
+        <ShellContent
+            Title="{Binding [Settings], Source={x:Static services:LocalizationResourceManager.Instance}}"
+            ContentTemplate="{DataTemplate pages:Settings}"
+            Route="Settings"/>
+    </FlyoutItem>
+
+    <FlyoutItem
+        Title="{Binding [Accessibility], Source={x:Static services:LocalizationResourceManager.Instance}}"
+        Icon="accessibility.png">
+        
+        <ShellContent
+            Title="{Binding [Accessibility], Source={x:Static services:LocalizationResourceManager.Instance}}"
+            ContentTemplate="{DataTemplate pages:Accessibility}"
+            Route="Accessibility"/>
+    </FlyoutItem>
+
+    <FlyoutItem
+        Title="{Binding [AboutApp], Source={x:Static services:LocalizationResourceManager.Instance}}"
+        Icon="info.png">
+        
+        <ShellContent
+            Title="{Binding [AboutApp], Source={x:Static services:LocalizationResourceManager.Instance}}"          
+            ContentTemplate="{DataTemplate pages:InfoPage}"
+            Route="InfoPage" />
+    </FlyoutItem>
+</Shell>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Organopedia3.Pages.InfoPage"
+             xmlns:resx="clr-namespace:Organopedia3.Resources"
+             xmlns:services="clr-namespace:Organopedia3.Services">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            <Label
+                Text="{Binding [Version], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                HorizontalOptions="Center"/>
+
+            <BoxView
+                HeightRequest="1"/>
+
+            <Label
+                Text="{Binding [AppDescription], Source={x:Static services:LocalizationResourceManager.Instance}}"
+                LineHeight="1.4"/>
+
+            <Label
+                Text="Organopedia © Przemysław Kojs"
+                FontSize="14"
+                HorizontalOptions="End"
+                Margin="0,40,0,0"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

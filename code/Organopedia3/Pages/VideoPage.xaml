@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Organopedia3.Pages.VideoPage"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="ContentPage">
+
+    <Grid>
+        <toolkit:MediaElement
+            x:Name="videoPlayer"
+            Aspect="AspectFit"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            ShouldShowPlaybackControls="True"/>
+
+        <Label
+            Text="✕"
+            FontSize="36"
+            HorizontalOptions="End"
+            VerticalOptions="Start"
+            Margin="20">
+            
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnCloseTapped"/>
+            </Label.GestureRecognizers>
+        </Label>
+    </Grid>
+</ContentPage>

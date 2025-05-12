@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutApp" xml:space="preserve">
+    <value>O aplikacji</value>
+  </data>
+  <data name="Accessibility" xml:space="preserve">
+    <value>Ułatwienia dostępu</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Traktury</value>
+  </data>
+  <data name="ActionsDescription" xml:space="preserve">
+    <value>Traktura to system mechanicznego, pneumatycznego lub elektrycznego połączenia między klawiaturą a zaworami wiatrownicy, który umożliwia przekazanie polecenia od organisty do piszczałek. Innymi słowy, traktura decyduje o tym, które piszczałki mają zabrzmieć po naciśnięciu odpowiedniego klawisza. W organach wyróżnia się trzy podstawowe typy traktury: Traktura mechaniczna (gryfowa) – oparta na dźwigniach, drążkach i cięgnach, daje bezpośrednie, fizyczne połączenie między klawiszem a zaworem. Ceniona za precyzyjne wyczucie gry. Traktura pneumatyczna – wykorzystuje sprężone powietrze do przekazywania impulsu. Spotykana głównie w organach z przełomu XIX i XX wieku. Traktura elektryczna – bazuje na impulsach elektrycznych, umożliwiając większą elastyczność w projektowaniu i oddaleniu stołu gry od piszczałek. W nowoczesnych organach często stosuje się trakturę mieszaną (hybrydową), łączącą różne systemy dla optymalizacji funkcjonalności i komfortu gry.</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus turpis semper erat laoreet, eu viverra est porttitor. Donec mattis vel felis ut rutrum. Morbi eu finibus massa. Donec porttitor metus ut felis rhoncus lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nec velit arcu. Vestibulum ac luctus velit. Duis blandit quis magna sit amet venenatis. Vestibulum et commodo quam. Praesent porttitor, elit sed vestibulum viverra, neque libero congue nibh, vitae faucibus lorem nisl quis justo. Maecenas quis tellus et nisi ullamcorper consectetur. Nullam facilisis nec purus eget venenatis. Mauris egestas risus molestie mattis ornare.</value>
+  </data>
+  <data name="Bellows" xml:space="preserve">
+    <value>Miechy</value>
+  </data>
+  <data name="BellowsDescription" xml:space="preserve">
+    <value>Miech to element organów odpowiedzialny za dostarczanie i utrzymywanie odpowiedniego ciśnienia powietrza (wiatru) potrzebnego do brzmienia piszczałek. Tradycyjnie miechy miały formę dużych, skórzanych worków rozciąganych ręcznie lub nożnie, jednak we współczesnych organach powietrze wtłaczane jest zazwyczaj przez elektryczne dmuchawy, a miechy pełnią funkcję regulatorów ciśnienia i magazynów powietrza. Wyróżnia się różne typy miechów, m.in. miechy klinowe, pudełkowe oraz pływakowe, z których każdy ma inną konstrukcję i sposób działania. Sprawnie działający miech jest niezbędny dla stabilności intonacyjnej i dynamicznej instrumentu – zapewnia równy, ciągły przepływ powietrza niezależnie od stopnia obciążenia gry.</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Zmień język</value>
+  </data>
+  <data name="ChangeMotiff" xml:space="preserve">
+    <value>Zmień motyw</value>
+  </data>
+  <data name="LabialMetal" xml:space="preserve">
+    <value>Labialne metalowe</value>
+  </data>
+  <data name="LabialWoodenDescription" xml:space="preserve">
+    <value>Piszczałki wargowe drewniane to rodzaj piszczałek organowych wykonanych głównie z drewna, takich jak sosna, dąb, klon czy mahoń. Działają na zasadzie przepływu powietrza przez szczelinę (szparę) i uderzenia o wargę piszczałki, co powoduje wibracje powietrza i powstanie dźwięku – podobnie jak w flecie prostym. Mają prostokątny przekrój i często budowane są w większych rozmiarach niż piszczałki metalowe, co pozwala im wydobywać głębokie, ciepłe brzmienia. Drewniane piszczałki wargowe stosowane są najczęściej w głosach o łagodnym, ciemnym charakterze, takich jak Bourdon, Gedackt czy Holzflöte.</value>
+  </data>
+  <data name="LabialWooden" xml:space="preserve">
+    <value>Labialne drewniane</value>
+  </data>
+  <data name="Large" xml:space="preserve">
+    <value>Duży</value>
+  </data>
+  <data name="MainPage" xml:space="preserve">
+    <value>Strona główna</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Średni</value>
+  </data>
+  <data name="Reed" xml:space="preserve">
+    <value>Językowe</value>
+  </data>
+  <data name="ReedDescription" xml:space="preserve">
+    <value>Piszczałki językowe (inaczej stroikowe) to typ piszczałek organowych, w których dźwięk powstaje poprzez drganie cienkiego metalowego języczka (stroika) osadzonego w mosiężnej rurce – zwanej kielichem (rezonatorem). Strumień powietrza wprawia języczek w wibracje, które następnie są wzmacniane i kształtowane przez rezonator. W przeciwieństwie do piszczałek wargowych, źródłem dźwięku nie jest cała kolumna powietrza, lecz drgający języczek. Piszczałki językowe mogą mieć rezonatory różnej długości, kształtu i materiału, co znacząco wpływa na barwę – od ostrych i przebijających (np. Trompeta, Klarine) po łagodniejsze i bardziej śpiewne (np. Oboe, Fagott). Wymagają one precyzyjnego strojenia i są często używane do imitacji instrumentów dętych.</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Szukaj...</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="Small" xml:space="preserve">
+    <value>Mały</value>
+  </data>
+  <data name="Stops" xml:space="preserve">
+    <value>Piszczałki</value>
+  </data>
+  <data name="StopsDescription" xml:space="preserve">
+    <value>Piszczałki organowe to podstawowe źródło dźwięku w organach piszczałkowych. Każda piszczałka wydaje pojedynczy dźwięk i różni się długością, materiałem oraz konstrukcją, co wpływa na barwę i wysokość tonu. Piszczałki dzielą się na dwa główne typy: piszczałki wargowe (labialne), działające na zasadzie podobnej do fletu, oraz piszczałki stroikowe (języczkowe), w których dźwięk powstaje dzięki drgającemu języczkowi. Organy mogą zawierać od kilkuset do kilkudziesięciu tysięcy piszczałek, co pozwala na niezwykle bogatą paletę brzmieniową.</value>
+  </data>
+  <data name="TextSize" xml:space="preserve">
+    <value>Rozmiar czcionki</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Wersja: 1.0</value>
+  </data>
+  <data name="Windchests" xml:space="preserve">
+    <value>Wiatrownice</value>
+  </data>
+  <data name="WindchestsDescription" xml:space="preserve">
+    <value>Wiatrownica to kluczowy element mechanizmu organów piszczałkowych, odpowiedzialny za kierowanie powietrza do odpowiednich piszczałek. Znajduje się bezpośrednio pod zespołem piszczałek i działa jak swego rodzaju "rozdzielnia powietrza". Wiatrownica zawiera szereg kanałów i zaworów, które otwierają się lub zamykają w zależności od naciśnięcia klawiszy i rejestrów przez organistę. Wyróżnia się różne typy wiatrownic, m.in. wiatrownice klapowo-zasuwowe (stosowane w organach mechanicznych), wiatrownice stożkowe (często spotykane w instrumentach pneumatycznych) oraz wiatrownice elektromagnetyczne. Jej precyzyjne działanie jest niezbędne dla prawidłowego działania całego instrumentu, zarówno pod względem technicznym, jak i muzycznym.</value>
+  </data>
+  <data name="LabialMetalDescription" xml:space="preserve">
+    <value>Piszczałki wargowe metalowe to najczęściej spotykany typ piszczałek w organach, wykonane zazwyczaj ze stopu cyny i ołowiu, choć stosuje się także cynk, miedź czy aluminium. Ich działanie polega na przepuszczeniu powietrza przez szparę kierującą strumień na wargę (krawędź) piszczałki, co pobudza drgania słupa powietrza wewnątrz rurki – podobnie jak w fletni Pana. Metalowe piszczałki mają zazwyczaj okrągły przekrój i są dostępne w różnych formach: otwarte, kryte, stożkowe, cylindryczne itd. Charakteryzują się jasnym, przejrzystym i często bardziej dźwięcznym brzmieniem niż ich drewniane odpowiedniki. Używane są do szerokiej gamy głosów, takich jak Principal, Octave, Flûte harmonique czy Salicional.</value>
+  </data>
+  <data name="WIP" xml:space="preserve">
+    <value>Praca w toku</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Więcej</value>
+  </data>
+  <data name="ChestWindchest" xml:space="preserve">
+    <value>Wiatrownica skrzyniowa</value>
+  </data>
+  <data name="ToneWindchest" xml:space="preserve">
+    <value>Wiatrownica tonowa</value>
+  </data>
+  <data name="RegisterWindchest" xml:space="preserve">
+    <value>Wiatrownica rejestrowa</value>
+  </data>
+  <data name="WedgeBellows" xml:space="preserve">
+    <value>Miech klinowy</value>
+  </data>
+  <data name="HorizontalBellows" xml:space="preserve">
+    <value>Miech horyzontalny</value>
+  </data>
+  <data name="FloatBellows" xml:space="preserve">
+    <value>Miech pływakowy</value>
+  </data>
+  <data name="TrackerAction" xml:space="preserve">
+    <value>Traktura mechaniczna</value>
+  </data>
+  <data name="PneumaticAction" xml:space="preserve">
+    <value>Traktura pneumatyczna</value>
+  </data>
+  <data name="ElectricAction" xml:space="preserve">
+    <value>Traktura elektryczna</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Polityka prywatności</value>
+  </data>
+  <data name="ChestWindchestDescription" xml:space="preserve">
+    <value>Wiatrownica skrzyniowa to typ wiatrownicy, w której klapy zaworowe są umieszczone na całej powierzchni, bez podziału na tony czy rejestry. Powietrze dostaje się do wiatrownicy przez otwory, a każda piszczałka ma swoją osobną klapę, którą otwiera naciśnięcie odpowiedniego klawisza. Tego typu wiatrownica jest prostą konstrukcją, stosowaną w mniej skomplikowanych organach, zapewniającą jednak równomierne dostarczanie powietrza do piszczałek.</value>
+  </data>
+  <data name="ToneWindchestDescription" xml:space="preserve">
+    <value>Wiatrownica tonowa to typ wiatrownicy, w której powietrze jest kierowane do piszczałek z podziałem na poszczególne tony i rejestry. Każdy zestaw piszczałek posiada oddzielną sekcję wiatrownicy, z osobnymi klapami zaworowymi dla różnych głosów. Umożliwia to precyzyjne kontrolowanie poszczególnych rejestrów, a także lepszą kontrolę nad ciśnieniem powietrza. Tego typu wiatrownice stosowane są w bardziej zaawansowanych organach, oferując większą elastyczność w zakresie brzmienia.</value>
+  </data>
+  <data name="RegisterWindchestDescription" xml:space="preserve">
+    <value>Wiatrownica rejestrowa to typ wiatrownicy, w której powietrze jest kierowane do grupy piszczałek zależnie od wybranego rejestru. Każdy rejestr (głos) ma swoją osobną sekcję wiatrownicy, z dedykowanymi zaworami dla każdej grupy piszczałek. W tym systemie zmiana rejestru polega na otwarciu lub zamknięciu odpowiednich klap w zależności od ustawionego głosu. Wiatrownice rejestrowe są stosowane w bardziej złożonych organach, umożliwiając dużą precyzję w zarządzaniu brzmieniem.</value>
+  </data>
+  <data name="WedgeBellowsDescription" xml:space="preserve">
+    <value>Miech klinowy składa się z dwóch drewnianych płyt połączonych skórą w kształcie klina. Górna płyta unosi się przy napełnianiu powietrzem i opada podczas jego oddawania. Jest to najstarszy typ miecha, dawniej obsługiwany ręcznie. Daje stabilne ciśnienie, ale ma ograniczoną pojemność i wymagał regularnego napełniania.</value>
+  </data>
+  <data name="HorizontalBellowsDescription" xml:space="preserve">
+    <value>Miech poziomy, zwany też miechem pudełkowym, ma kształt zamkniętego prostokątnego pudła z ruchomą górną płytą. Powietrze wtłaczane do wnętrza unosi płytę, a jej opadanie reguluje wypływ powietrza do wiatrownicy. Ciśnienie utrzymywane jest przez ciężary lub sprężyny. Miech ten dobrze sprawdza się jako magazyn powietrza w większych instrumentach.</value>
+  </data>
+  <data name="FloatBellowsDescription" xml:space="preserve">
+    <value>Miech pływakowy to poziomy zbiornik powietrza z ruchomą górną płytą, która unosi się pod wpływem sprężonego powietrza i opada, gdy jest ono zużywane. Utrzymuje stałe ciśnienie dzięki obciążeniu płyty ciężarami lub sprężynami. Stosowany głównie w nowoczesnych organach z dmuchawą elektryczną, zapewnia dużą pojemność i równomierny przepływ powietrza.</value>
+  </data>
+  <data name="TrackerActionDescription" xml:space="preserve">
+    <value>Traktura mechaniczna (gryfowa) to system bezpośredniego połączenia klawiszy z zaworami wiatrownicy za pomocą cięgien, dźwigni i drążków. Naciśnięcie klawisza fizycznie otwiera zawór pod odpowiednią piszczałką, co umożliwia przepływ powietrza i wydobycie dźwięku. Zapewnia precyzyjne wyczucie gry i prostą konserwację, ale wymaga większej siły przy grze z wieloma głosami i jest trudna do zastosowania przy dużych odległościach między stołem gry a piszczałkami.</value>
+  </data>
+  <data name="PneumaticActionDescription" xml:space="preserve">
+    <value>Traktura pneumatyczna wykorzystuje sprężone powietrze do przekazywania sygnału z klawiatury do zaworów wiatrownicy. Naciśnięcie klawisza uruchamia mieszek lub zawór, który przesyła impuls powietrzny do odpowiedniego zaworu pod piszczałką. System ten pozwala oddalić stół gry od piszczałek i wymaga mniejszej siły przy grze, ale jest mniej precyzyjny, bardziej podatny na opóźnienia i wymaga częstszej konserwacji.</value>
+  </data>
+  <data name="ElectricActionDescription" xml:space="preserve">
+    <value>Traktura elektryczna przesyła sygnały z klawiatury do zaworów wiatrownicy za pomocą impulsów elektrycznych. Naciśnięcie klawisza uruchamia obwód, który otwiera odpowiedni zawór pod piszczałką. Umożliwia dużą swobodę w rozmieszczeniu stołu gry, szybki przekaz i stosowanie nowoczesnych funkcji, ale zależy od zasilania i jest bardziej złożona technicznie.</value>
+  </data>
+  <data name="ChangeLanguageButton" xml:space="preserve">
+    <value>Przycisk zmiany języka</value>
+  </data>
+  <data name="ChangeLanguageButtonHelp" xml:space="preserve">
+    <value>Użyj tego przycisku, by zmienić język używany w aplikacji</value>
+  </data>
+  <data name="ChangeMotiffButton" xml:space="preserve">
+    <value>Przycisk zmiany motywu</value>
+  </data>
+  <data name="ChangeMotiffButtonHelp" xml:space="preserve">
+    <value>Kliknij, by zmienić motyw wizualny aplikacji</value>
+  </data>
+  <data name="ChangeFontSize" xml:space="preserve">
+    <value>Zmień rozmiar czcionki</value>
+  </data>
+  <data name="ChangeFontSizeHelp" xml:space="preserve">
+    <value>Użyj tego pola, by zmienić rozmiar czcionki w aplikacji</value>
+  </data>
+  <data name="PrivacyPolicyButton" xml:space="preserve">
+    <value>Przycisk polityki prywatności</value>
+  </data>
+  <data name="PrivacyPolicyButtonHelp" xml:space="preserve">
+    <value>Kliknij, by przenieść się do strony polityki prywatności aplikacji</value>
+  </data>
+</root>
