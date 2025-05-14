@@ -326,7 +326,7 @@ namespace Organopedia3.Data
                 {
                     Offset = new Point(1, 1),
                     Radius = 0,
-                    Brush = new SolidColorBrush((Color)Application.Current!.Resources["BackgroundColor"])
+                    Brush = new SolidColorBrush((Color)Application.Current!.Resources["TextColor"])
                 }
             };
 
@@ -336,13 +336,7 @@ namespace Organopedia3.Data
                 LineBreakMode = LineBreakMode.WordWrap,
                 MaxLines = 4,
                 Margin = 0,
-                Padding = new Thickness(10, 5),
-                Shadow = new Shadow()
-                {
-                    Offset = new Point(1, 1),
-                    Radius = 0,
-                    Brush = new SolidColorBrush((Color)Application.Current!.Resources["BackgroundColor"])
-                }
+                Padding = new Thickness(10, 5)
             };
 
             var content = new StackLayout

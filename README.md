@@ -100,7 +100,7 @@ UI powinno być zgodne z wytycznymi dotyczącymi dostępności (np. odpowiedni k
 ## 6. Źródła graficzne
 - [Model telefonu](https://www.freepik.com/free-vector/new-modern-realistic-front-view-black-iphone-mockup-isolated-white-mobile-template-vector_33632328.htm#fromView=keyword&page=1&position=1&uuid=6e918124-cbae-458d-b878-4339da11c9e0&query=Mockup+Phone)
 - [Ikony w menu hamburgerowym](https://fonts.google.com/icons?preview.layout=grid) - wszystkie pochodzą od GoogleFonts, udostępnionych na licencji OpenSource.
-- Źródła własne - zdjęcia, filmy z rzeczywistych organów. Wykonane za zgodą opiekunów instrumentów.
+- Źródła własne - zdjęcia, filmy oraz materiały audio z rzeczywistych organów. Wykonane za zgodą opiekunów instrumentów.
 
 ## 7. Wykorzystane narzędzia
 - [Figma](https://www.figma.com/) - edycja Student

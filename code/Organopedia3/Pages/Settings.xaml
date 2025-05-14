@@ -17,7 +17,7 @@
                 Text="{Binding [PrivacyPolicy], Source={x:Static services:LocalizationResourceManager.Instance}}"
                 Clicked="OnPrivacyPolicyClicked"
                 AutomationProperties.Name="{Binding [PrivacyPolicyButton], Source={x:Static services:LocalizationResourceManager.Instance}}"
-                AutomationProperties.HelpText="{Binding [PrivacyPolicyButtonHelp], Source={x:Static services:LocalizationResourceManager.Instance}}/>
+                AutomationProperties.HelpText="{Binding [PrivacyPolicyButtonHelp], Source={x:Static services:LocalizationResourceManager.Instance}}"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
