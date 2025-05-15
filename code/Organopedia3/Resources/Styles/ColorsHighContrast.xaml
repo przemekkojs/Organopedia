@@ -6,7 +6,6 @@
     <Color x:Key="BackgroundColor">#000000</Color>
     <Color x:Key="TextColor">#FFFFFF</Color>
     <Color x:Key="AccentColor">#FFFF00</Color>
-    <Color x:Key="LinkColor">#00FFFF</Color>
     <Color x:Key="BorderColor">#FFFFFF</Color>
     <Color x:Key="AddBackgroundColor">#000000</Color>
 </ResourceDictionary>

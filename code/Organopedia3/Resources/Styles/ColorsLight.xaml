@@ -7,7 +7,6 @@
     <Color x:Key="BackgroundColor">#FAFAFA</Color>
     <Color x:Key="TextColor">#212121</Color>
     <Color x:Key="AccentColor">#D4AF37</Color>
-    <Color x:Key="LinkColor">#2A52BE</Color>
     <Color x:Key="BorderColor">#E0E0E0</Color>
     <Color x:Key="AddBackgroundColor">#A0EEEEEE</Color>
 </ResourceDictionary>

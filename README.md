@@ -127,3 +127,33 @@ Do dowolnego miejsca w aplikacji można zawsze dojść w maksymalnie 3 kliknięc
 
 ### Dostępność
 Materiały graficzne otrzymały teksty alternatywne, elementy UI otrzymały opisy, dzięki czemu aplikacja działa na czytnikach ekranowych.
+
+## Kolorystyka aplikacji
+Została dobrana tak, by jednocześnie być nowoczesna, elegancka oraz klasyczna. Dodatkowo wyraźne inspiracje instrumentami - złoto, czernie, biele oraz odcienie szarości bazujące na istniejących, współczesnych kontuarach. 
+
+### Tryb jasny (Light mode)
+Kolor tła: #FAFAFA\
+Kolor tekstu: #212121\
+Kolor akcentu: #D4AF37\
+Kolor obramowania: #E0E0E0\
+Dodatkowy kolor tła: #A0EEEEEE\
+
+### Tryb ciemny (Dark mode)
+Kolor tła: #121212\
+Kolor tekstu: #E0E0E0\
+Kolor akcentu: #FFD700\
+Kolor obramowania: #333333\
+Dodatkowy kolor tła: #80222222\
+
+### Tryb wysokiego kontrastu (High contrast mode)
+Kolor tła: #000000\
+Kolor tekstu: #FFFFFF\
+Kolor akcentu: #FFFF00\
+Kolor obramowania: #FFFFFF\
+Dodatkowy kolor tła: #000000\
+
+## Szkic aplikacji
+Szkic aplikacji jest dostępny w folderze **wireframes/**. Przygotowany został w programie *Pencil*, można również zobaczyć wyeksportowanego interaktywnego PDFa z programu.
+
+## Prototyp aplikacji
+Prototyp dostępny jest pod linkiem: [Link do makiety projektu w witrynie proto.io](https://pr.to/BAQLXL/)
