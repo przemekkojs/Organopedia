@@ -1,11 +1,9 @@
-﻿using Microsoft.Maui.Controls.Shapes;
-using Organopedia3.Data;
-using Organopedia3.Pages;
+﻿using Organopedia3.Data;
 using Organopedia3.Services;
 
 namespace Organopedia3
 {
-    public partial class MainPage : SwipeEnablePage
+    public partial class MainPage : ContentPage
     {
         private readonly List<TileItem> tileData =
         [
@@ -26,7 +24,8 @@ namespace Organopedia3
             string searchText = e.NewTextValue?.ToLowerInvariant() ?? string.Empty;
 
             var filtered = tileData
-                .Where(x => x.Title.Contains(searchText, StringComparison.InvariantCultureIgnoreCase))
+                .Where(x => LocalizationResourceManager.Instance[x.Title]
+                    .Contains(searchText, StringComparison.InvariantCultureIgnoreCase))
                 .ToList();
 
             Items.GenerateTiles(filtered, tilesContainer);

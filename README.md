@@ -2,9 +2,6 @@
 Aplikacja mobilna będąca encyklopedią dot. budowy organów kościelnych.\
 *Systemy Mobilne i Multimedia*
 
-**autor**: Przemysław Kojs (266548)\
-**grupa**: Grupa 1 (pon 18:55)
-
 ## 1. Założenia aplikacji
 Projekt będzie swego rodzaju encyklopedią dot. piszczałek, wiatrownic, traktur oraz innych elementów związanych z budową organów kościelnych.
 Zgodnie z poleceniem, ma być min. 12 produktów w 3 różnych kategoriach.
@@ -16,7 +13,7 @@ Propozycje kategorii oraz produktów w nich zawartych:
 4. **Miechy** - klinowy, pływakowy, poziomy
 
 ## 2. Technologia
-.NET MAUI - język C#, platforma .NET 9.0 - zgodnie z akceptacją
+.NET MAUI - język C#, platforma .NET 9.0
 
 ## 3. Q&A
 
@@ -98,7 +95,7 @@ UI powinno być zgodne z wytycznymi dotyczącymi dostępności (np. odpowiedni k
 **5.5. Efekty tekstowe**: Cień, pogrubienie
 
 ## 6. Źródła graficzne
-- [Model telefonu](https://www.freepik.com/free-vector/new-modern-realistic-front-view-black-iphone-mockup-isolated-white-mobile-template-vector_33632328.htm#fromView=keyword&page=1&position=1&uuid=6e918124-cbae-458d-b878-4339da11c9e0&query=Mockup+Phone)
+- [Model telefonu na ulotce](https://www.freepik.com/free-vector/new-modern-realistic-front-view-black-iphone-mockup-isolated-white-mobile-template-vector_33632328.htm#fromView=keyword&page=1&position=1&uuid=6e918124-cbae-458d-b878-4339da11c9e0&query=Mockup+Phone)
 - [Ikony w menu hamburgerowym](https://fonts.google.com/icons?preview.layout=grid) - wszystkie pochodzą od GoogleFonts, udostępnionych na licencji OpenSource.
 - Źródła własne - zdjęcia, filmy oraz materiały audio z rzeczywistych organów. Wykonane za zgodą opiekunów instrumentów.
 
@@ -132,28 +129,35 @@ Materiały graficzne otrzymały teksty alternatywne, elementy UI otrzymały opis
 Została dobrana tak, by jednocześnie być nowoczesna, elegancka oraz klasyczna. Dodatkowo wyraźne inspiracje instrumentami - złoto, czernie, biele oraz odcienie szarości bazujące na istniejących, współczesnych kontuarach. 
 
 ### Tryb jasny (Light mode)
-Kolor tła: #FAFAFA\
-Kolor tekstu: #212121\
-Kolor akcentu: #D4AF37\
-Kolor obramowania: #E0E0E0\
-Dodatkowy kolor tła: #A0EEEEEE\
+**Kolor tła**: #FAFAFA\
+**Kolor tekstu**: #212121\
+**Kolor akcentu**: #D4AF37\
+**Kolor obramowania**: #E0E0E0\
+**Dodatkowy kolor tła**: #A0EEEEEE
 
 ### Tryb ciemny (Dark mode)
-Kolor tła: #121212\
-Kolor tekstu: #E0E0E0\
-Kolor akcentu: #FFD700\
-Kolor obramowania: #333333\
-Dodatkowy kolor tła: #80222222\
+**Kolor tła**: #121212\
+**Kolor tekstu**: #E0E0E0\
+**Kolor akcentu**: #FFD700\
+**Kolor obramowania**: #333333\
+**Dodatkowy kolor tła**: #80222222
 
 ### Tryb wysokiego kontrastu (High contrast mode)
-Kolor tła: #000000\
-Kolor tekstu: #FFFFFF\
-Kolor akcentu: #FFFF00\
-Kolor obramowania: #FFFFFF\
-Dodatkowy kolor tła: #000000\
+**Kolor tła**: #000000\
+**Kolor tekstu**: #FFFFFF\
+**Kolor akcentu**: #FFFF00\
+**Kolor obramowania**: #FFFFFF\
+**Dodatkowy kolor tła**: #000000
 
 ## Szkic aplikacji
 Szkic aplikacji jest dostępny w folderze **wireframes/**. Przygotowany został w programie *Pencil*, można również zobaczyć wyeksportowanego interaktywnego PDFa z programu.
 
 ## Prototyp aplikacji
 Prototyp dostępny jest pod linkiem: [Link do makiety projektu w witrynie proto.io](https://pr.to/BAQLXL/)
+
+## Testy
+Testy aplikacji objęły sprawdzenie działania elementów wyszukującym oraz dostępności każdego z ważniejszych ekranów. Przeprowadzone zostały na platformie Windows, z uwagi na niekompatybilne pakiety z moim urządzeniem (API 34). Użyte zostały:
+- Appium
+- WinAppDriver
+- NUnit
+- Microsoft.Test.Sdk

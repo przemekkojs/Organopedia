@@ -35,7 +35,8 @@
 
         <ScrollView Grid.Row="1">
             <Label
-                x:Name="descriptionLabel"/>
+                x:Name="descriptionLabel"
+                AutomationId="DescriptionLabel"/>
         </ScrollView>
     </Grid>    
 </ContentPage>

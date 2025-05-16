@@ -12,7 +12,7 @@
 
         public static void LoadFontSize()
         {
-            double savedSize = Preferences.Get(FontSizeKey, 16); // Domyślnie 16
+            double savedSize = Preferences.Get(FontSizeKey, 16);
             Application.Current!.Resources["TextFontSize"] = savedSize;
         }
     }

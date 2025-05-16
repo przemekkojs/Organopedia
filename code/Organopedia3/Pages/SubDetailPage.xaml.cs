@@ -47,7 +47,8 @@ public partial class SubDetailPage : ContentPage
                 WidthRequest = 100,
                 HeightRequest = 100,
                 Margin = 0,
-                Aspect = Aspect.AspectFill
+                Aspect = Aspect.AspectFill,
+                AutomationId = item.Source
             };
 
             var tapGesture = new TapGestureRecognizer();
@@ -62,6 +63,9 @@ public partial class SubDetailPage : ContentPage
                 Background = Colors.Transparent,
                 Content = mediaView
             };
+
+            SemanticProperties.SetDescription(mediaView, "Media");
+            mediaView.IsEnabled = true;
 
             mediaGallery.Children.Add(border);
         }

@@ -13,6 +13,7 @@
         </Grid.RowDefinitions>
 
         <SearchBar
+            AutomationId="SearchBar"
             x:Name="searchBar"
             Placeholder="{Binding [Search], Source={x:Static services:LocalizationResourceManager.Instance}}"
             TextChanged="OnSearchBarTextChanged"
@@ -24,7 +25,8 @@
             HorizontalOptions="CenterAndExpand"
             x:Name="titleLabel"
             FontAttributes="Bold"
-            TextColor="{StaticResource AccentColor}"/>
+            TextColor="{StaticResource AccentColor}"
+            AutomationId="TitleLabel"/>
 
         <ScrollView Grid.Row="2">
             <VerticalStackLayout>
@@ -39,7 +41,8 @@
                 </Label>
 
                 <VerticalStackLayout
-                    x:Name="tilesContainer">
+                    x:Name="tilesContainer"
+                    AutomationId="TilesContainerDetail">
                 </VerticalStackLayout>
             </VerticalStackLayout>            
         </ScrollView>

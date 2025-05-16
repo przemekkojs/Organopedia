@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<pages:SwipeEnablePage
+<ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:resx="clr-namespace:Organopedia3.Resources"
@@ -14,15 +14,20 @@
         </Grid.RowDefinitions>
 
         <SearchBar
+            AutomationId="MainSearchBar"
             x:Name="searchBar"
             Placeholder="{Binding [Search], Source={x:Static services:LocalizationResourceManager.Instance}}"
             TextChanged="OnSearchBarTextChanged"
             Grid.Row="0"/>
 
-        <ScrollView Grid.Row="1">
+        <ScrollView
+            Grid.Row="1"
+            AutomationId="ScrollViewMain">
+            
             <VerticalStackLayout
-                x:Name="tilesContainer">
+                x:Name="tilesContainer"
+                AutomationId="TilesContainerMain">
             </VerticalStackLayout>
         </ScrollView>
     </Grid>
-</pages:SwipeEnablePage>
+</ContentPage>

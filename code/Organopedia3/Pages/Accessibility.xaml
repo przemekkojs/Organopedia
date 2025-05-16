@@ -8,12 +8,14 @@
     <ScrollView>
         <VerticalStackLayout>
             <Button
+                AutomationId="ChangeMotiffButton"
                 Text="{Binding [ChangeMotiff], Source={x:Static services:LocalizationResourceManager.Instance}}"
                 Clicked="OnContrastToggleClicked"
                 AutomationProperties.Name="{Binding [ChangeMotiffButton], Source={x:Static services:LocalizationResourceManager.Instance}}"
                 AutomationProperties.HelpText="{Binding [ChangeMotiffButtonHelp], Source={x:Static services:LocalizationResourceManager.Instance}}"/>
 
             <Picker
+                AutomationId="FontSizePicker"
                 x:Name="FontSizePicker"
                 Title="{Binding [TextSize], Source={x:Static services:LocalizationResourceManager.Instance}}"
                 SelectedIndexChanged="FontSizePicker_SelectedIndexChanged"

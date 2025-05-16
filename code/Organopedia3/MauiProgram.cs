@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
 using Organopedia3.Services;
+using CommunityToolkit.Maui.Markup;
 
 namespace Organopedia3
 {
@@ -15,6 +16,7 @@ namespace Organopedia3
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkitMediaElement()
+                .UseMauiCommunityToolkitMarkup()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

@@ -150,7 +150,6 @@ namespace Organopedia3.Data
             Route = "SubDetailPage",
             Param = "ElectricAction"
         };
-
         // - DetailsPage -
 
         // + SubDetailsPage +
@@ -298,7 +297,8 @@ namespace Organopedia3.Data
             Description = "WedgeBellowsDescription",
             MediaItems =
             [
-                new MediaItem() { Source = "miechklinowy.png", IsVideo = false }
+                new MediaItem() { Source = "miechklinowy.png", IsVideo = false },
+                new MediaItem() { Source = "miechklinowyb.png", IsVideo = false }
             ]
         };
         // - SubDetailsPage -
@@ -365,8 +365,13 @@ namespace Organopedia3.Data
 
             var border = new Border
             {
-                Content = grid
+                Content = grid,
+                AutomationId = LocalizationResourceManager.Instance[item.Title]
             };
+
+            // Dla wymuszenia AutomationId
+            SemanticProperties.SetDescription(border, "Tile");
+            border.IsEnabled = true;
 
             var tapGesture = new TapGestureRecognizer();
             tapGesture.Tapped += (s, e) => OnTileTapped(item);
