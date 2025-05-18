@@ -43,7 +43,7 @@ public partial class SubDetailPage : ContentPage
         {
             View mediaView = new Image
             {
-                Source = item.IsVideo ? "logo_transparent.png" : item.Source,
+                Source = item.IsVideo ? "play.png" : item.Source,
                 WidthRequest = 100,
                 HeightRequest = 100,
                 Margin = 0,

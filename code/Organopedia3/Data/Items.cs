@@ -188,7 +188,9 @@ namespace Organopedia3.Data
             [
                 new MediaItem() { Source = "jezyki.png", IsVideo = false },
                 new MediaItem() { Source = "jezykib.png", IsVideo = false },
-                new MediaItem() { Source = "jezykic.png", IsVideo = false }
+                new MediaItem() { Source = "jezykic.png", IsVideo = false },
+                new MediaItem() { Source = "jezyka.mp4", IsVideo = true },
+                new MediaItem() { Source = "jezykb.mp4", IsVideo = true }
             ]
         };
 
@@ -277,7 +279,8 @@ namespace Organopedia3.Data
             [
                 new MediaItem() { Source = "miechplywak.png", IsVideo = false },
                 new MediaItem() { Source = "miechplywakb.png", IsVideo = false },
-                new MediaItem() { Source = "miechplywakc.png", IsVideo = false }
+                new MediaItem() { Source = "miechplywakc.png", IsVideo = false },
+                new MediaItem() { Source = "miechplywaka.mp4", IsVideo = true }
             ]
         };
 
@@ -298,7 +301,8 @@ namespace Organopedia3.Data
             MediaItems =
             [
                 new MediaItem() { Source = "miechklinowy.png", IsVideo = false },
-                new MediaItem() { Source = "miechklinowyb.png", IsVideo = false }
+                new MediaItem() { Source = "miechklinowyb.png", IsVideo = false },
+                new MediaItem() { Source = "miechklinowya.mp4", IsVideo = true }
             ]
         };
         // - SubDetailsPage -

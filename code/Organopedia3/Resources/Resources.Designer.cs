@@ -97,7 +97,7 @@ namespace Organopedia3.Resources {
         }
         
         /// <summary>
-        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus turpis semper erat laoreet, eu viverra est porttitor. Donec mattis vel felis ut rutrum. Morbi eu finibus massa. Donec porttitor metus ut felis rhoncus lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nec velit arcu. Vestibulum ac luctus velit. Duis blandit quis magna sit amet venenatis. Vestibulum et commodo quam. Praesent porttitor, elit sed vestibulum viverra, neque libero congue n [obcięto pozostałą część ciągu]&quot;;.
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Organopedia - jedyna w swoim rodzaju, mobilna encyklopedia poświęcona organom kościelnym. Stworzona przez zamiłowanie do instrumentu przez studenta informatyki, a zarazem organisty..
         /// </summary>
         internal static string AppDescription {
             get {
