@@ -88,7 +88,7 @@ Aplikacja powinna wspierać gesty dotykowe, takie jak przesuwanie (swipe) czy po
 UI powinno być zgodne z wytycznymi dotyczącymi dostępności (np. odpowiedni kontrast, obsługa czytników ekranowych).
 
 ## 5. Kroje pisma, efekty tekstowe itp.
-**5.1. Pliki graficzne**: format .png\
+**5.1. Pliki graficzne**: format .png, .svg (ikony, wymagane przez MAUI)\
 **5.2. Pliki video**: format .mp4, kodek H.265\
 **5.3. Pliki audio**: format .aac\
 **5.4. Krój pisma**: OpenSans, bezszeryfowa\

@@ -12,7 +12,8 @@
             Aspect="AspectFit"
             VerticalOptions="Center"
             HorizontalOptions="Center"
-            ShouldShowPlaybackControls="True"/>
+            ShouldShowPlaybackControls="True"
+            ShouldAutoPlay="True"/>
 
         <Label
             Text="✕"
