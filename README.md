@@ -2,7 +2,7 @@
 Aplikacja mobilna będąca encyklopedią dot. budowy organów kościelnych.\
 *Systemy Mobilne i Multimedia*
 
-<img src="logo.jpg" alt="logo aplikacji - miniaturowy 3-częściowy, srebrny prospekt organowy na czarnym tle."
+<img src="logo.jpg" alt="logo aplikacji - miniaturowy 3-częściowy, srebrny prospekt organowy na czarnym tle.">
 
 ## 1. Założenia aplikacji
 Projekt będzie swego rodzaju encyklopedią dot. piszczałek, wiatrownic, traktur oraz innych elementów związanych z budową organów kościelnych.
