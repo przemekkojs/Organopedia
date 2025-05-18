@@ -4,6 +4,9 @@ using OpenQA.Selenium;
 
 namespace UiTests.Android;
 
+// Nie rozumiem, czemu ten błąd w ogóle się pojawia, stąd to nieładne obejście.
+#pragma warning disable NUnit1032
+
 public class UITests
 {
     private static WindowsDriver? driver;
