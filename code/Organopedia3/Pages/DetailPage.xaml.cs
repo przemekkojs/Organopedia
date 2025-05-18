@@ -8,6 +8,8 @@ public partial class DetailPage : ContentPage
 {
     private string? _titleParam;
     private bool isExpanded = true;
+    private const int MAX_DESC_LENGTH = 100;
+    private const int FADE_LENGTH = 150;
 
     public string TitleParam
     {
@@ -83,8 +85,9 @@ public partial class DetailPage : ContentPage
         string searchText = e.NewTextValue?.ToLowerInvariant() ?? string.Empty;
 
         var filtered = tileData
-            .Where(x => x.Title.Contains(searchText, StringComparison.InvariantCultureIgnoreCase))
-            .ToList();
+                .Where(x => LocalizationResourceManager.Instance[x.Title]
+                    .Contains(searchText, StringComparison.InvariantCultureIgnoreCase))
+                .ToList();
 
         Items.GenerateTiles(filtered, tilesContainer);
     }
@@ -93,15 +96,12 @@ public partial class DetailPage : ContentPage
     {
         isExpanded = !isExpanded;
         var text = LocalizationResourceManager.Instance[$"{TitleParam}Description"];
-        string preview = text.Length > 100 ? text[..100].Trim() + "... " + LocalizationResourceManager.Instance["More"].ToLower() : text;
+        string preview = text.Length > MAX_DESC_LENGTH ?
+            $"{text[..MAX_DESC_LENGTH].Trim()}... {LocalizationResourceManager.Instance["More"].ToLower()}" :
+            text;
 
-        // Fade out
-        await descriptionLabel.FadeTo(0, 150, Easing.CubicIn);
-
-        // Change text
+        await descriptionLabel.FadeTo(0, FADE_LENGTH, Easing.CubicIn);
         descriptionLabel.Text = isExpanded ? text : preview;
-
-        // Fade in
-        await descriptionLabel.FadeTo(1, 150, Easing.CubicOut);
+        await descriptionLabel.FadeTo(1, FADE_LENGTH, Easing.CubicOut);
     }
 }
