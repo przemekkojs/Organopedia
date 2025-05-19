@@ -151,6 +151,11 @@ Została dobrana tak, by jednocześnie być nowoczesna, elegancka oraz klasyczna
 **Kolor obramowania**: #FFFFFF\
 **Dodatkowy kolor tła**: #000000
 
+## Kontrasty
+![Kontrasty motywu ciemnego](constrasts/contrasts_dark.png)
+![Kontrasty motywu jasnego](constrasts/contrasts_light.png)
+![Kontrasty motywu wysokiego kontrastu](constrasts/contrasts_highcontrast.png)
+
 ## Szkic aplikacji
 Szkic aplikacji jest dostępny w folderze **wireframes/**. Przygotowany został w programie *Pencil*, można również zobaczyć wyeksportowanego interaktywnego PDFa z programu.
 
